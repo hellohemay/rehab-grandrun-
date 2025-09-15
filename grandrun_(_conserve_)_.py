@@ -22,7 +22,7 @@ Original file is located at
 
 📌 HTML (治療醫囑)
 請到療程整合系統，開啟該病人的復健醫囑畫面。
-將各區展開後，使用「Ctrl + Shift + I」複製內文貼入。
+將各區展開後，使用「Ctrl + Shift + I」複製內文貼入。"""
 
 
 
