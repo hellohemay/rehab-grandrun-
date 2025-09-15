@@ -9,9 +9,9 @@ Original file is located at
 
 # -*- coding: utf-8 -*-
 """
-診斷：請複製完整診斷(TBI/SCI/CVA)，若診斷越完整可以產生報告越完整 (如：含dysphagia,aphasia, hemiparesis, hemiplegia,tetraplegia,paraplegia)
-PE/Function status/Local finding : 請直接貼入復健科完整全部PE，程式會抓取需要內容
-HTML:請自療程整合系統該病人已開立復健單畫面，將各區點開後，Ctrl+Shift+ I，複製內文
+-###診斷###：請複製完整診斷(TBI/SCI/CVA)，若診斷越完整可以產生報告越完整 (如：含dysphagia,aphasia, hemiparesis, hemiplegia,tetraplegia,paraplegia)/n
+-###PE/Function status/Local finding### : 請直接貼入復健科完整全部PE，程式會抓取需要內容/n
+-###HTML###:請自療程整合系統該病人已開立復健單畫面，將各區點開後，Ctrl+Shift+ I，複製內文/n
 """
 
 import re
