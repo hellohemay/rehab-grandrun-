@@ -9,12 +9,9 @@ Original file is located at
 
 # -*- coding: utf-8 -*-
 """
-整合版：CVA / SCI / TBI 自動版（只在【臨床評估】依版本差異顯示）
-- 版本判定來自 diagnosis_text（SCI / TBI / 其他→CVA）
-- SCI：顯示 MMT(RUL/RLL/LUL/LLL) + BARTHEL INDEX（自 PE 擷取）
-- TBI：顯示 Barthel Index（自 PE 擷取）
-- CVA：顯示 Brunnstrom stage（原本行為）
-其餘邏輯（移動方式/吞嚥/語言/認知/護理/ST/出院目標/計畫修正）維持不變
+診斷：請複製完整診斷(TBI/SCI/CVA)，若診斷越完整可以產生報告越完整 (如：含dysphagia,aphasia, hemiparesis, hemiplegia,tetraplegia,paraplegia)
+PE/Function status/Local finding : 請直接貼入復健科完整全部PE，程式會抓取需要內容
+HTML:請自療程整合系統該病人已開立復健單畫面，將各區點開後，Ctrl+Shift+ I，複製內文
 """
 
 import re
