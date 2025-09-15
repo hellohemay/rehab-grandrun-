@@ -22,7 +22,33 @@ Original file is located at
 📌 HTML (治療醫囑)
 請到療程整合系統，開啟該病人的復健醫囑畫面。
 將各區展開後，使用「Ctrl + Shift + I」複製內文貼入。
-"""
+"""import streamlit as st
+
+st.markdown("""
+===============================
+🏥 使用說明：復健科報告產生器
+===============================
+
+### 📌 診斷 (Diagnosis)
+請複製完整診斷 (例如：TBI / SCI / CVA)。  
+診斷越完整，產生的報告就會越完整。  
+建議包含關鍵字：
+- dysphagia  
+- aphasia  
+- hemiparesis  
+- hemiplegia  
+- tetraplegia  
+- paraplegia  
+
+### 📌 PE / Functional status / Local finding
+請直接貼入復健科完整的 PE，  
+程式會自動抓取需要的內容。  
+
+### 📌 HTML (治療醫囑)
+請到療程整合系統，開啟該病人的復健醫囑畫面。  
+將各區展開後，使用 **Ctrl + Shift + I** 複製內文貼入。
+""")
+
 
 
 
