@@ -966,4 +966,4 @@ if st.button("產生報告"):
     else:
         report = generate_report(diagnosis_text, pe_text, html_text)
         st.success("✅ 已產生報告")
-        st.text_area("報告內容", report, height=600)
+        st.text_area("報告內容", report, height=600) 
